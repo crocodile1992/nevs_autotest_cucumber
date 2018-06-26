@@ -1,0 +1,120 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 10674876644,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.openBrowser()"
+            }
+          }
+        ],
+        "line": 2,
+        "name": "Create Declaration Low Values",
+        "description": "",
+        "id": "create-declaration-lowvalues;create-declaration-low-values",
+        "after": [
+          {
+            "result": {
+              "duration": 1147288433,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.embedScreenshot(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1726379555,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "I open \"http://10.1.17.4:64382\" website",
+            "match": {
+              "arguments": [
+                {
+                  "val": "http://10.1.17.4:64382",
+                  "offset": 8
+                }
+              ],
+              "location": "KeywordDrivenFramework.i_open_website(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 279051951,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I login using credentials \"ktht060618@gmail.com\" and \"123456\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "ktht060618@gmail.com",
+                  "offset": 27
+                },
+                {
+                  "val": "123456",
+                  "offset": 54
+                }
+              ],
+              "location": "KeywordDrivenFramework.i_login_using_credentials_and(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 6060564940,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Closed Notify popup",
+            "match": {
+              "location": "KeywordDrivenFramework.close_notify_popup()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 11120204364,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Goto create declaration low value menu",
+            "match": {
+              "location": "KeywordDrivenFramework.goto_create_declaration_lowvalu_menu()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 138909714,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Click to Save Declaration button",
+            "match": {
+              "location": "KeywordDrivenFramework.click_to_save_declaration_button()"
+            },
+            "keyword": "When "
+          }
+        ]
+      }
+    ],
+    "name": "Create Declaration LowValues",
+    "description": "",
+    "id": "create-declaration-lowvalues",
+    "keyword": "Feature",
+    "uri": "features/KeywordDrivenFramework.feature"
+  }
+]
